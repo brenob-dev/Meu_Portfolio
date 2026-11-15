@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <title>Portfólio - Breno Barbosa</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header id="header">
+    <div id="logo">
+        <i class="fa-solid fa-code"></i>
+        <a href="#hero-container">BRENO <span>DEV</span></a>
+    </div>
+
+    <button class="hamburger" aria-label="Abrir menu">
+        <span></span>
+    </button>
+
+    <nav id="nav-bar">
+        <ul id="list-bar">
+            <li><a class="active" href="#hero-container">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contatos">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+        <!--Container -->
+        <section id="hero-container">
+
+            <!--Conteúdo esquerdo -->
+            <div id="hero-left">
+
+                <p class="tema">Desenvolvedor Front-End</p>
+
+                <h1>Olá, eu sou o <span>Breno</span></h1>
+
+                <p id="subtitulo">Desenvolvedor em formação, focado em transformar ideias em aplicações web modernas, eficientes e intuitivas.
+                Dedico-me diariamente ao estudo de novas tecnologias para entregar projetos com alta qualidade e performance.
+                </p>
+
+                <div id="hero-buttons">
+                    <a href="#">Ver meus Projetos</a>
+                    <a href="#">Download CV</a>
+                </div>
+
+                <h2>Tecnologias que utilizo</h2>
+
+                <div class="tech-icons">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-react"></i>
+                </div>
+            </div>
+
+            <!--Conteúdo Direito -->
+            <div id="hero-right">
+
+                <div id="circle"></div>
+
+                <div id="arrow"></div>
+
+            </div>
+        </section>
+
+        <!--SOBRE-->
+
+        <section id="sobre">
+
+            <!--Conteúdo Esquerdo (visual)-->
+                <div id="sobre-left">
+                    <div id="sobre-circle"></div>
+                </div>
+
+            <!--Conteúdo Direito (texto)-->
+            <div id="sobre-right">
+
+                <p class="tema">Sobre mim</p>
+
+                <h2 id="sobre-titulo">Quem é o <span>Breno</span></h2>
+
+                <p id="sobre-texto">
+                    Sou desenvolvedor Front-End em formação, apaixonado por transformar ideias em interfaces funcionais e agradáveis de usar. 
+                    Comecei minha jornada na programação buscando entender como as coisas funcionam por trás das telas que uso todos os dias, e hoje dedico boa parte do meu tempo estudando HTML, CSS, JavaScript, React e C#.
+                </p>
+
+                <p id="sobre-texto">
+                    Acredito que código bom é aquele que resolve problemas reais de forma simples. Estou sempre em busca de aprender novas tecnologias e boas práticas para crescer como profissional e entregar projetos com qualidade.
+                </p>
+
+            </div>
+
+        </section>
+        <section id="projetos">
+
+            <p id="tema" class="tema-centro">Meu Trabalho</p>
+
+            <h2 id="projetos-titulo">Meus <span>Projetos</span></h2>
+
+            <div id="projetos-grid">
+                <!-- cards de projeto vão aqui -->
+            </div>
+
+        </section>
+        
+    </main>
+</body>
+</html>
